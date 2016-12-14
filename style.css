@@ -4,8 +4,7 @@ body {
     font-size: .85em;
 }
 
-h2
-  {
+h2 {
     color: #D18800;
     font-family: "Shadows Into Light Two", cursive;
     font-size: 1.7em;
@@ -16,30 +15,39 @@ Nav {
     background-color: #538F9A;
     font-weight: 250;
 }
-Nav a:link, nav a:visited {
+
+Nav a:link,
+nav a:visited {
     color: white;
     text-decoration: none
 }
+
 Nav a:hover {
-    color:skyblue
+    color: skyblue
 }
+
 #middle-row {
     background-color: #F9D084;
 }
+
 .content {
     width: 80%;
     max-width: 850px;
     margin: 0 auto;
 }
+
 .banner img {
     width: 100%;
 }
+
 .lastparagraph {
     text-align: center;
 }
+
 .socialicons img {
     width: 40px
 }
+
 section {
     padding: 1em
 }
