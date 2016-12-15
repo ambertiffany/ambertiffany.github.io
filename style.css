@@ -2,6 +2,7 @@
     body {
         font-family: tahoma;
         font-size: .85em;
+        color: dimgrey;
     }
     
     h3 {
@@ -11,11 +12,35 @@
         margin-bottom: .5em;
     }
     
+    h1 {
+        color: #D18800;
+        font-family: "Shadows Into Light Two", cursive;
+        font-size: 2.5em;
+        margin-bottom: .5em;
+        padding-left: 7.2em
+    }
+    
     h2 {
         color: #D18800;
         font-family: "Shadows Into Light Two", cursive;
         font-size: 1.7em;
         margin-bottom: .5em;
+    }
+    
+    h4 {
+        color: #D18800;
+        font-family: tahoma;
+        font-size: 1.17em;
+        margin-bottom: .5em;
+        font-weight: 200
+    }
+    
+    .answer {
+        font-family: tahoma;
+        font-size: .85em;
+        font-weight: 200;
+        padding-left: 3em;
+        color: dimgrey
     }
     
     Nav {
@@ -46,7 +71,7 @@
     }
     
     #middle-row {
-        background-color: #538F9A;
+        background-color: ;
     }
     
     .content {
@@ -72,7 +97,7 @@
     }
     
     #top-row,
-    #middle-row {
+    #middle-row #last-row {
         display: flex;
         flex-flow: row wrap;
         align-items: center
