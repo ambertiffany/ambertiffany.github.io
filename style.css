@@ -1,73 +1,97 @@
     @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
-body {
-    font-family: tahoma;
-    font-size: .85em;
-}
-
-h2 {
-    color: #D18800;
-    font-family: "Shadows Into Light Two", cursive;
-    font-size: 1.7em;
-    margin-bottom: .5em;
-}
-
-Nav {
-    background-color: #538F9A;
-    font-weight: 250;
-}
-
-Nav a:link,
-nav a:visited {
-    color: white;
-    text-decoration: none
-}
-
-Nav a:hover {
-    color: skyblue
-}
-
-#middle-row {
-    background-color: #F9D084;
-}
-
-.content {
-    width: 80%;
-    max-width: 850px;
-    margin: 0 auto;
-}
-
-.banner img {
-    width: 100%;
-}
-
-.lastparagraph {
-    text-align: center;
-}
-
-.socialicons img {
-    width: 40px
-}
-
-section {
-    padding: 1em
-}
-
-#top-row,
-#middle-row {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center
-}
-.leftcol, .rightcol {
+    body {
+        font-family: tahoma;
+        font-size: .85em;
+    }
+    
+    h3 {
+        color: white;
+        font-family: "Shadows Into Light Two", cursive;
+        font-size: 1.7em;
+        margin-bottom: .5em;
+    }
+    
+    h2 {
+        color: #D18800;
+        font-family: "Shadows Into Light Two", cursive;
+        font-size: 1.7em;
+        margin-bottom: .5em;
+    }
+    
+    Nav {
+        background-color: #538F9A;
+        font-weight: 250;
+        font-size: 1.2em;
+        line-height: 3em;
+        padding-left: 10em;
+    }
+    
+    Nav ul {
+        margin: 0;
+    }
+    
+    Nav li {
+        display: inline-block;
+        padding-left: 1em;
+    }
+    
+    Nav a:link,
+    nav a:visited {
+        color: white;
+        text-decoration: none
+    }
+    
+    Nav a:hover {
+        color: skyblue
+    }
+    
+    #middle-row {
+        background-color: #538F9A;
+    }
+    
+    .content {
+        width: 80%;
+        max-width: 850px;
+        margin: 0 auto;
+    }
+    
+    .banner img {
+        width: 100%;
+    }
+    
+    .lastparagraph {
+        text-align: center;
+    }
+    
+    .socialicons img {
+        width: 40px
+    }
+    
+    section {
+        padding: 1em
+    }
+    
+    #top-row,
+    #middle-row {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center
+    }
+    
+    .leftcol,
+    .rightcol {
         width: 48%;
         flex: 1 0 15em;
-    margin-left: 1em
-}
+        margin-left: 1em;
+    }
+    
     img {
         max-width: 100%
     }
-footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
+    
+    footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-top: 7em
+    }
