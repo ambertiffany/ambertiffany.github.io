@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+    @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
 body {
     font-family: tahoma;
     font-size: .85em;
@@ -50,4 +50,24 @@ Nav a:hover {
 
 section {
     padding: 1em
+}
+
+#top-row,
+#middle-row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center
+}
+.leftcol, .rightcol {
+        width: 48%;
+        flex: 1 0 15em;
+    margin-left: 1em
+}
+    img {
+        max-width: 100%
+    }
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
